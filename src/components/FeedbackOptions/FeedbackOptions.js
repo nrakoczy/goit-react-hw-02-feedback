@@ -1,5 +1,7 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 import css from './FeedbackOptions.module.css';
+
 const Options = ({ options, handleIncrement }) => {
   return (
     <section>
